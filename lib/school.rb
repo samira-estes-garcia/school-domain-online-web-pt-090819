@@ -7,7 +7,7 @@ class School
     @roster = {}
   end
   
-  def add(student_grade)
+  def add_studnet(student_grade)
     student_grade.each do |grade, student|
       @roster[grade] = student
     end
