@@ -8,7 +8,7 @@ class School
   end
   
   def add_student(student)
-    @roster.push(student)
+    student.each do ||
   end
   
 end
