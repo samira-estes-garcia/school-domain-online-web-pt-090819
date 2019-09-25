@@ -8,9 +8,7 @@ class School
   end
   
   def add_student(student, grade)
-    student.each do |student, grade|
-      @roster[student] = grade
-    end
+    @roster[student] = grade
   end
   
 end
