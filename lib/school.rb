@@ -8,7 +8,8 @@ class School
   end
   
   def add_student(student)
-    student.each do ||
+    student.each do |student, grade|
+      
   end
   
 end
